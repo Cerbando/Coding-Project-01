@@ -59,3 +59,12 @@ form.addEventListener("click", (event) => {
     console.log("Clicked:", event.target.id);
 });
 
+// stopPropagation example
+document.getElementById("container")
+.addEventListener("click", (event) => {
+    event.stopPropagation();
+});
+
+document.body.addEventListener("click", () => {
+    console.log("Background clicked");
+});
