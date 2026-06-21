@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.field {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#error {
+    color: red;
+}
+
+.feedback-entry {
+    background: #e8f5e9;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
