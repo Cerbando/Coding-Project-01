@@ -54,3 +54,8 @@ form.addEventListener("submit", (event) => {
     charCount.textContent = "Characters: 0";
 });
 
+// Event delegation & bubbling
+form.addEventListener("click", (event) => {
+    console.log("Clicked:", event.target.id);
+});
+
